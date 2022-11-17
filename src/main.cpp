@@ -58,6 +58,7 @@ void operar(const int opElegida) {
     cout << resultado[i] << ", ";
   }
   cout << resultado[7] << "]" << endl;
+  delete[] resultado;
 }
 
 void menuSelector() {
