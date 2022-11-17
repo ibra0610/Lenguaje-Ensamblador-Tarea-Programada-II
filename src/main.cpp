@@ -1,41 +1,63 @@
 #include <iostream>
 
-// extern "C" void func(int* x, int* y);
+extern "C" float *sumaVectorial(float *, float *);
+extern "C" float *escalarPorVector(float *, float);
+extern "C" float *funct(float *);
 
 using namespace std;
 
-void leerVector(int *vect) {
-  // Leer de entrada uno por uno, guardar en arr.
+void leerVector(float *vect, int numDeVec) {
+  if (numDeVec == 1) {
+    cout << "Introduzca los 8 elementos del vector(separados por ',')" << endl;
+  } else {
+    cout << "Introduzca los 8 elementos del segundo vector(separados por ',')"
+         << endl;
+  }
+
+  while (scanf("%f,%f,%f,%f,%f,%f,%f,%f", &vect[0], &vect[1], &vect[2],
+               &vect[3], &vect[4], &vect[5], &vect[6], &vect[7]) != 8) {
+    cout << "No han sido introducidos correctamente, vuelva a intentarlo."
+         << endl;
+  }
 }
 
-void operar(int &opElegida) {
-  // Tam. por definir.
-  int *vect1; // general
+void operar(const int opElegida) {
+  float vect1[8];
+  float *resultado = new float[8];
+
   switch (opElegida) {
   case 1:
     cout << "<Suma de dos vectores> :" << endl;
-    leerVector(vect1);
-    int *vect2;
-    leerVector(vect2);
-    /*sumaDeVectores(int* vect1, int* vect2)*/
+    leerVector(vect1, 1);
+    float vect2[8];
+    leerVector(vect2, 2);
+    resultado = sumaVectorial(vect1, vect2);
     break;
   case 2:
     cout << "<Multiplicar escalar por vector> :" << endl;
-    leerVector(vect1);
+    leerVector(vect1, 1);
     int escalar;
-    cout << "Introduzca el escalar(*tam. max. del escalar*): " << endl;
+    cout << "Introduzca el escalar: " << endl;
     cin >> escalar;
     /*escalarPorVector(int* vect1, int escalar)*/
     break;
   case 3:
     cout << "<*funcion* de un vector> :" << endl;
-    leerVector(vect1);
+    leerVector(vect1, 1);
     /*_DeVector(int* vect1)*/
     break;
 
   default:
+    cout << "Error al elegir operacion" << endl;
     break;
   }
+
+  cout << "Resultado: ";
+  cout << "[";
+  for (int i = 0; i < 7; i++) {
+    cout << resultado[i] << ", ";
+  }
+  cout << resultado[7] << "]" << endl;
 }
 
 void menuSelector() {
@@ -51,6 +73,15 @@ void menuSelector() {
 }
 
 int main() {
-  menuSelector();
+  bool continuar = true;
+  char opcion;
+  while (continuar) {
+    menuSelector();
+    cout << "¿Quiere hacer otro calculo? (s/n)" << endl;
+    cin >> opcion;
+    if (opcion != 's') {
+      continuar = false;
+    }
+  }
   return 0;
 }
