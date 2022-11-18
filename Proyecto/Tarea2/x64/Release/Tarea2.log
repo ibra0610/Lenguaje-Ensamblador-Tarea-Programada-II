@@ -1,0 +1,9 @@
+﻿  Assembling asm64.asm...
+  Tarea2.cpp
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(17,12): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(48,9): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(49,13): error C2065: 'fld': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(49,17): error C2146: syntax error: missing ';' before identifier 'num'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,13): error C2065: 'fcos': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(51,13): error C2065: 'fstp': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(51,18): error C2146: syntax error: missing ';' before identifier 'num'

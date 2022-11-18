@@ -1,7 +1,7 @@
 #include <iostream>
 
 extern "C" float* sumaVectorial(float*, float*);
-extern "C" float* escalarPorVector(float*, float);
+extern "C" void escalarPorVector(float*, float);
 
 using namespace std;
 
@@ -46,9 +46,9 @@ void operar(const int opElegida) {
         double num; //Variable a calcular el coseno
         cin >> num;
         _asm {
-            fld num; Se sube al stack para realizar operaciones con la FPU
-            fcos; Se calcula su coseno
-            fstp num; Se saca el valor del stack y se devuelve a la variable original
+            fld num; //Se sube al stack para realizar operaciones con la FPU
+            fcos; //Se calcula su coseno
+            fstp num;//Se saca el valor del stack y se devuelve a la variable original
         }
         cout << "\nResultado: " << num << endl;
         break;

@@ -19,4 +19,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <MASM Include="asm64.asm">
+      <Filter>Header Files</Filter>
+    </MASM>
+  </ItemGroup>
 </Project>
