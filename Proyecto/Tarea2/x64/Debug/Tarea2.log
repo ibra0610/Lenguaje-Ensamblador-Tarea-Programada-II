@@ -1,0 +1,62 @@
+﻿  Tarea2.cpp
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(18,12): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(49,9): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,13): error C2065: 'fld': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,17): error C2146: syntax error: missing ';' before identifier 'num'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,22): error C2065: 'Se': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,25): error C2146: syntax error: missing ';' before identifier 'sube'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,25): error C2065: 'sube': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,30): error C2146: syntax error: missing ';' before identifier 'al'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,30): error C2065: 'al': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,33): error C2146: syntax error: missing ';' before identifier 'stack'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,33): error C2065: 'stack': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,39): error C2146: syntax error: missing ';' before identifier 'para'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,39): error C2065: 'para': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,44): error C2146: syntax error: missing ';' before identifier 'realizar'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,44): error C2065: 'realizar': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,53): error C2146: syntax error: missing ';' before identifier 'operaciones'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,53): error C2065: 'operaciones': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,65): error C2146: syntax error: missing ';' before identifier 'con'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,65): error C2065: 'con': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,69): error C2146: syntax error: missing ';' before identifier 'la'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,69): error C2065: 'la': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,72): error C2146: syntax error: missing ';' before identifier 'FPU'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,72): error C2065: 'FPU': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(51,13): error C2146: syntax error: missing ';' before identifier 'fcos'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(51,13): error C2065: 'fcos': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(51,19): error C2065: 'Se': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(51,22): error C2146: syntax error: missing ';' before identifier 'calcula'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(51,22): error C2065: 'calcula': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(51,30): error C2146: syntax error: missing ';' before identifier 'su'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(51,30): error C2065: 'su': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(51,33): error C2146: syntax error: missing ';' before identifier 'coseno'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(51,33): error C2065: 'coseno': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,13): error C2146: syntax error: missing ';' before identifier 'fstp'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,13): error C2065: 'fstp': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,18): error C2146: syntax error: missing ';' before identifier 'num'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,23): error C2065: 'Se': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,26): error C2146: syntax error: missing ';' before identifier 'saca'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,26): error C2065: 'saca': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,31): error C2146: syntax error: missing ';' before identifier 'el'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,31): error C2065: 'el': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,34): error C2146: syntax error: missing ';' before identifier 'valor'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,34): error C2065: 'valor': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,40): error C2146: syntax error: missing ';' before identifier 'del'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,40): error C2065: 'del': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,44): error C2146: syntax error: missing ';' before identifier 'stack'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,44): error C2065: 'stack': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,50): error C2146: syntax error: missing ';' before identifier 'y'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,50): error C2065: 'y': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,52): error C2146: syntax error: missing ';' before identifier 'se'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,52): error C2065: 'se': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,55): error C2146: syntax error: missing ';' before identifier 'devuelve'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,55): error C2065: 'devuelve': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,64): error C2146: syntax error: missing ';' before identifier 'a'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,64): error C2065: 'a': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,66): error C2146: syntax error: missing ';' before identifier 'la'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,66): error C2065: 'la': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,69): error C2146: syntax error: missing ';' before identifier 'variable'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,69): error C2065: 'variable': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,78): error C2146: syntax error: missing ';' before identifier 'original'
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(52,78): error C2065: 'original': undeclared identifier
+C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(53,9): error C2143: syntax error: missing ';' before '}'
