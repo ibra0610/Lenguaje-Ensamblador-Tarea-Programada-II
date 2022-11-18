@@ -2,7 +2,6 @@
 
 extern "C" float *sumaVectorial(float *, float *);
 extern "C" float *escalarPorVector(float *, float);
-extern "C" float *funct(float *);
 
 using namespace std;
 
