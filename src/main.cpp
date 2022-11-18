@@ -42,9 +42,15 @@ void operar(const int opElegida) {
     /*escalarPorVector(int* vect1, int escalar)*/
     break;
   case 3:
-    cout << "<*funcion* de un vector> :" << endl;
-    leerVector(vect1, 1);
-    /*_DeVector(int* vect1)*/
+    cout << "Digite el numero al cual desea calcular el coseno: ";
+    double num; //Variable a calcular el coseno
+    cin >> num; 
+    _asm {
+        fld num; Se sube al stack para realizar operaciones con la FPU
+        fcos; Se calcula su coseno
+        fstp num; Se saca el valor del stack y se devuelve a la variable original
+    }
+    cout << "\nResultado: " << num << endl;
     break;
 
   default:
@@ -52,12 +58,14 @@ void operar(const int opElegida) {
     break;
   }
 
-  cout << "Resultado: ";
-  cout << "[";
-  for (int i = 0; i < 7; i++) {
-    cout << resultado[i] << ", ";
+  if (opElegida != 3) {
+      cout << "Resultado: ";
+      cout << "[";
+      for (int i = 0; i < 7; i++) {
+          cout << resultado[i] << ", ";
+      }
+      cout << resultado[7] << "]" << endl;
   }
-  cout << resultado[7] << "]" << endl;
   delete[] resultado;
 }
 
@@ -68,7 +76,7 @@ void menuSelector() {
   cout << "      >> Elija la operacion a realizar <<      " << endl << endl;
   cout << "<1> Suma de dos vectores. \n";
   cout << "<2> Multiplicar escalar por vector. \n";
-  cout << "<3> *funcion* de un vector. \n";
+  cout << "<3> Calcular el coseno de un numero. \n";
   cin >> opElegida;
   operar(opElegida);
 }
