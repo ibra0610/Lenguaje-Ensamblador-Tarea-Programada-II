@@ -1,20 +1,11 @@
 .code 
     align 16
-    esAVX proc
-    push rbx
+    sumaVectorial proc
+    
+    vmovups xmm0, xmmword ptr [rbx]
+    vmovups xmm1, xmmword ptr [rcx]
+    vaddps  xmm2, xmm1, xmm0
 
-    mov eax, 7
-    mov ecx, 0
-
-    cpuid
-
-    shr ebx, 16
-    and ebx, 1
-
-    mov eax, ebx
-
-
-    pop rbx
     ret
-    esAVX endp
+    sumaVectorial endp
 end
