@@ -7,7 +7,7 @@ using namespace std;
 
 __asm
 {
-sumaVectores proc
+sumaVectorial proc
 
 vmovups ymm0, ymmwordptr [rcx]
 vmovups ymm1, ymmwordptr [rdx]
@@ -51,17 +51,35 @@ void operar(const int opElegida) {
         int escalar;
         cout << "Introduzca el escalar: " << endl;
         cin >> escalar;
+        __asm {
+            mov ax, @data                             
+            mov ds, ax  
+
+            mov cx, 8 
+            mov si, 0 
+
+            multiplique: 
+                mov ax, vect1[si]
+                IMUL ax, escalar 
+                mov vect1[si], ax
+    
+                inc si 
+    
+                loop multiplique
+        }
         /*escalarPorVector(int* vect1, int escalar)*/
         break;
     case 3:
         cout << "Digite el numero al cual desea calcular el coseno: ";
         double num; //Variable a calcular el coseno
         cin >> num;
-        _asm {
+        __asm {
             fld num; //Se sube al stack para realizar operaciones con la FPU
             fcos; //Se calcula su coseno
             fstp num;//Se saca el valor del stack y se devuelve a la variable original
         }
+            
+        
         cout << "\nResultado: " << num << endl;
         break;
 
@@ -105,3 +123,5 @@ int main() {
     }
     return 0;
 }
+
+

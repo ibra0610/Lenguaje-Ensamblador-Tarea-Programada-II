@@ -1,9 +1,57 @@
-﻿  Assembling asm64.asm...
-  Tarea2.cpp
-C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(17,12): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(48,9): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
-C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(49,13): error C2065: 'fld': undeclared identifier
-C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(49,17): error C2146: syntax error: missing ';' before identifier 'num'
-C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(50,13): error C2065: 'fcos': undeclared identifier
-C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(51,13): error C2065: 'fstp': undeclared identifier
-C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(51,18): error C2146: syntax error: missing ';' before identifier 'num'
+﻿  Tarea2.cpp
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(8,1): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(9,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(29,12): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(54,9): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(55,13): error C2065: 'mov': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(55,17): error C2146: syntax error: missing ';' before identifier 'ax'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(55,17): error C2065: 'ax': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(55,21): error C2018: unknown character '0x40'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(56,17): error C2563: mismatch in formal parameter list
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(56,17): error C2568: ',': unable to resolve function overload
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(56,17): message : could be 'const _Elem *std::data(std::initializer_list<_Elem>) noexcept'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(56,17): message : or       '_Ty *std::data(_Ty (&)[_Size]) noexcept'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(56,17): message : or       'unknown-type std::data(const _Container &) noexcept(<expr>)'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(56,17): message : or       'unknown-type std::data(_Container &) noexcept(<expr>)'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(56,13): error C2146: syntax error: missing ';' before identifier 'mov'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(56,13): error C2065: 'mov': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(56,17): error C2146: syntax error: missing ';' before identifier 'ds'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(56,17): error C2065: 'ds': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(56,21): error C2065: 'ax': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(58,13): error C2146: syntax error: missing ';' before identifier 'mov'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(58,13): error C2065: 'mov': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(58,17): error C2146: syntax error: missing ';' before identifier 'cx'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(58,17): error C2065: 'cx': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(59,13): error C2146: syntax error: missing ';' before identifier 'mov'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(59,13): error C2065: 'mov': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(59,17): error C2146: syntax error: missing ';' before identifier 'si'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(59,17): error C2065: 'si': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(61,13): error C2146: syntax error: missing ';' before identifier 'multiplique'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(62,17): error C2065: 'mov': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(62,21): error C2146: syntax error: missing ';' before identifier 'ax'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(62,21): error C2065: 'ax': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(62,31): error C2065: 'si': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(63,17): error C2146: syntax error: missing ';' before identifier 'IMUL'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(63,17): error C2065: 'IMUL': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(63,22): error C2146: syntax error: missing ';' before identifier 'ax'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(63,22): error C2065: 'ax': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(64,17): error C2146: syntax error: missing ';' before identifier 'mov'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(64,17): error C2065: 'mov': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(64,21): error C2146: syntax error: missing ';' before identifier 'vect1'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(64,27): error C2065: 'si': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(64,32): error C2065: 'ax': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(66,17): error C2146: syntax error: missing ';' before identifier 'inc'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(66,17): error C2065: 'inc': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(66,21): error C2146: syntax error: missing ';' before identifier 'si'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(66,21): error C2065: 'si': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(68,17): error C2146: syntax error: missing ';' before identifier 'loop'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(68,17): error C2065: 'loop': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(68,22): error C2146: syntax error: missing ';' before identifier 'multiplique'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(68,22): error C2065: 'multiplique': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(69,9): error C2143: syntax error: missing ';' before '}'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(76,9): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(77,13): error C2065: 'fld': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(77,17): error C2146: syntax error: missing ';' before identifier 'num'
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(78,13): error C2065: 'fcos': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(79,13): error C2065: 'fstp': undeclared identifier
+C:\Users\Ibra\Desktop\UCR\Lenguaje ensamblador\Tarea Programada II\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\Tarea2.cpp(79,18): error C2146: syntax error: missing ';' before identifier 'num'
