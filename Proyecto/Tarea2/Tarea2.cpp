@@ -5,18 +5,6 @@ extern "C" void escalarPorVector(float*, float);
 
 using namespace std;
 
-__asm
-{
-sumaVectorial proc
-
-vmovups ymm0, ymmwordptr [rcx]
-vmovups ymm1, ymmwordptr [rdx]
-vaddps ymm2, ymm1, ymm0
-vmovups rax, ymm2
-ret
-sumaVectores endp
-}
-
 void leerVector(float* vect, int numDeVec) {
     if (numDeVec == 1) {
         cout << "Introduzca los 8 elementos del vector(separados por ',')" << endl;
