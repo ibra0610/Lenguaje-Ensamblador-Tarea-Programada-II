@@ -1,7 +1,0 @@
-﻿  Assembling CalcularCoseno.asm...
-CalcularCoseno.asm(2): error A2008: syntax error : .
-CalcularCoseno.asm(7): error A2001: immediate operand not allowed
-CalcularCoseno.asm(8): error A2001: immediate operand not allowed
-CalcularCoseno.asm(10): error A2001: immediate operand not allowed
-CalcularCoseno.asm(11): error A2070: invalid instruction operands
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\masm.targets(70,5): error MSB3721: The command "ml64.exe /c /nologo /Zi /Fo"x64\Debug\CalcularCoseno.obj" /W3 /errorReport:prompt  /TaCalcularCoseno.asm" exited with code 1.
