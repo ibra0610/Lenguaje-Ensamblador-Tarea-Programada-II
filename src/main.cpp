@@ -2,7 +2,7 @@
 #include <cstdio>
 #include <Windows.h>
 
-extern "C" float* sumaVectorial(float*, float*);
+extern "C" float* sumaVectorial(float*, float*, float*);
 //extern "C" float* escalarPorVector(float*, float);
 
 using namespace std;
@@ -38,7 +38,7 @@ void operar(const int opElegida) {
         leerVector(vect1, 1);
         float vect2[8];
         leerVector(vect2, 2);
-        resultado = sumaVectorial(vect1, vect2);
+        resultado = sumaVectorial(vect1, vect2, resultado);
         break;
     case 2:
         cout << "<Multiplicar escalar por vector> :" << endl;
