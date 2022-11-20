@@ -1,11 +1,12 @@
 #include <iostream>
 
 extern "C" float* sumaVectorial(float*, float*);
-extern "C" float* escalarPorVector(float*, float);
+extern "C" void escalarPorVector(float*, float);
+extern "C" float calcCoseno(float);
 
 using namespace std;
 
-void leerVector(float* vect, int numDeVec) {
+/*void leerVector(float* vect, int numDeVec) {
     if (numDeVec == 1) {
         cout << "Introduzca los 8 elementos del vector(separados por ',')" << endl;
     }
@@ -20,7 +21,7 @@ void leerVector(float* vect, int numDeVec) {
             << endl;
     }
 }
-
+*/
 void operar(const int opElegida) {
     float vect1[8];
     float* resultado = new float[8];
@@ -28,29 +29,40 @@ void operar(const int opElegida) {
     switch (opElegida) {
     case 1:
         cout << "<Suma de dos vectores> :" << endl;
-        leerVector(vect1, 1);
+        //leerVector(vect1, 1);
         float vect2[8];
-        leerVector(vect2, 2);
+        //leerVector(vect2, 2);
         resultado = sumaVectorial(vect1, vect2);
         break;
     case 2:
-        cout << "<Multiplicar escalar por vector> :" << endl;
+        /*cout << "<Multiplicar escalar por vector> :" << endl;
         leerVector(vect1, 1);
         int escalar;
         cout << "Introduzca el escalar: " << endl;
         cin >> escalar;
+        __asm {
+            mov ax, @data                             
+            mov ds, ax  
+
+            mov cx, 8 
+            mov si, 0 
+
+            multiplique: 
+                mov ax, vect1[si]
+                IMUL ax, escalar 
+                mov vect1[si], ax
+    
+                inc si 
+    
+                loop multiplique
+        }
         /*escalarPorVector(int* vect1, int escalar)*/
         break;
     case 3:
         cout << "Digite el numero al cual desea calcular el coseno: ";
-        double num; //Variable a calcular el coseno
+        float num; //Variable a calcular el coseno
         cin >> num;
-        _asm {
-            fld num; Se sube al stack para realizar operaciones con la FPU
-            fcos; Se calcula su coseno
-            fstp num; Se saca el valor del stack y se devuelve a la variable original
-        }
-        cout << "\nResultado: " << num << endl;
+        cout << "\nResultado: " << calcCoseno(&num) << endl;
         break;
 
     default:
@@ -61,7 +73,7 @@ void operar(const int opElegida) {
         cout << "Resultado: ";
         cout << "[";
         for (int i = 0; i < 7; i++) {
-            cout << resultado[i] << ", ";
+            //cout << resultado[i] << ", ";
         }
         cout << resultado[7] << "]" << endl;
     }
@@ -85,7 +97,7 @@ int main() {
     char opcion;
     while (continuar) {
         menuSelector();
-        cout << "¿Quiere hacer otro calculo? (s/n)" << endl;
+        cout << "Â¿Quiere hacer otro calculo? (s/n)" << endl;
         cin >> opcion;
         if (opcion != 's') {
             continuar = false;
@@ -93,3 +105,5 @@ int main() {
     }
     return 0;
 }
+
+

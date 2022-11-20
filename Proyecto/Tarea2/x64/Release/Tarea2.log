@@ -1,0 +1,7 @@
+﻿  Assembling CalcularCoseno.asm...
+  Assembling sumaVector.asm...
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 20 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Tarea2.vcxproj -> C:\Users\HP EliteBook\Desktop\Tarea2Ensambla\Lenguaje-Ensamblador-Tarea-Programada-II\Proyecto\Tarea2\x64\Release\Tarea2.exe

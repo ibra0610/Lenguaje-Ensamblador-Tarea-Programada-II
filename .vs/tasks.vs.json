@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-CalcularCoseno",
+      "appliesTo": "Proyecto/Tarea2/CalcularCoseno.asm",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-Tarea2",
+      "appliesTo": "Proyecto/Tarea2/Tarea2.sln",
+      "type": "launch"
+    }
+  ]
+}

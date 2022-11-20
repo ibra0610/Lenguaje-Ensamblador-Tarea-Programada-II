@@ -19,4 +19,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <MASM Include="asm64.asm">
+      <Filter>Header Files</Filter>
+    </MASM>
+    <MASM Include="CalcularCoseno.asm">
+      <Filter>Header Files</Filter>
+    </MASM>
+    <MASM Include="sumaVector.asm">
+      <Filter>Header Files</Filter>
+    </MASM>
+  </ItemGroup>
 </Project>
