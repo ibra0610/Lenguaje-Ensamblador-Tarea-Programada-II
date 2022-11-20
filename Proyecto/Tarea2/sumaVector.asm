@@ -2,10 +2,10 @@
     align 16
     sumaVectorial proc
     
-    vmovups xmm0, xmmword ptr [rcx]
-    vmovups xmm1, xmmword ptr [rdx]
-    vaddps  xmm2, xmm1, xmm0
-
+    vmovups ymm1, ymmword ptr [rcx]
+    vmovups ymm2, ymmword ptr [rdx]
+    vaddps  ymm0, ymm1, ymm2
+    movd rax, ymm0
     ret
     sumaVectorial endp
 end
