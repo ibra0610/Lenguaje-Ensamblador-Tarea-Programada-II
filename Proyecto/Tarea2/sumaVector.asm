@@ -5,7 +5,7 @@
     vmovups ymm1, ymmword ptr [rcx]
     vmovups ymm2, ymmword ptr [rdx]
     vaddps  ymm0, ymm1, ymm2
-    movq rax, ymm0
+    vmovq rax, ymm0
     ret
     sumaVectorial endp
 end
