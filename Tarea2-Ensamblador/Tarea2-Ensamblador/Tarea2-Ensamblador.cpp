@@ -39,7 +39,7 @@ void operar(const int opElegida) {
         leerVector(vect1, 1);
         float vect2[4];
         leerVector(vect2, 2);
-            sumaVectorial(vect1, vect2, resultado);
+        sumaVectorial(vect1, vect2, resultado);
         break;
     case 2:
         cout << "<Multiplicar escalar por vector> :" << endl;
@@ -48,7 +48,7 @@ void operar(const int opElegida) {
         cout << "Introduzca el escalar: " << endl;
         cin >> escalar;
         cout <<vect1[0] << endl;
-        multiplicar(vect1, escalar)
+        multiplicar(vect1, escalar);
         break;
     case 3:
         cout << "Digite el numero al cual desea calcular el coseno: ";
