@@ -4,7 +4,7 @@
 
 extern "C" float* sumaVectorial(float*, float*, float*);
 extern "C" float calcCoseno(float);
-//extern "C" float* escalarPorVector(float*, float);
+extern "C" float* multiplicar(float*, int);
 
 using namespace std;
 /*
@@ -39,7 +39,7 @@ void operar(const int opElegida) {
         leerVector(vect1, 1);
         float vect2[4];
         leerVector(vect2, 2);
-        sumaVectorial(vect1, vect2, resultado);
+            sumaVectorial(vect1, vect2, resultado);
         break;
     case 2:
         cout << "<Multiplicar escalar por vector> :" << endl;
@@ -47,26 +47,8 @@ void operar(const int opElegida) {
         int escalar;
         cout << "Introduzca el escalar: " << endl;
         cin >> escalar;
-        /*
-        __asm{
-            mov ax, @data
-            mov ds, ax
-
-            mov cx, 8
-            mov si, 0
-
-            multiplique:
-            mov ax, vect1[si]
-            IMUL ax, escalar
-            mov vect1[si], ax
-
-            inc si
-
-            loop multiplique
-        };
         cout <<vect1[0] << endl;
-        */
-        /*escalarPorVector(int* vect1, int escalar)*/
+        multiplicar(vect1, escalar)
         break;
     case 3:
         cout << "Digite el numero al cual desea calcular el coseno: ";
