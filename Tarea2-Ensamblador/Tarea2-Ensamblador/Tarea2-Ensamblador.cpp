@@ -16,6 +16,14 @@ float* sumaVectorial(float* v1, float* v2) {
 }
 */
 
+void multiplique_escalar(float* arreglo, float escalar) {
+
+
+    for (int i = 0; i < sizeof(arreglo); i++) {
+        arreglo[i] = arreglo[i] * escalar;
+    }
+}
+
 void leerVector(float* vect, int numDeVec) {
     if (numDeVec == 1) {
         cout << "Introduzca los 4 elementos del vector." << endl;
@@ -44,11 +52,16 @@ void operar(const int opElegida) {
     case 2:
         cout << "<Multiplicar escalar por vector> :" << endl;
         leerVector(vect1, 1);
-        int escalar;
+        float escalar;
         cout << "Introduzca el escalar: " << endl;
         cin >> escalar;
         cout <<vect1[0] << endl;
-        multiplicar(vect1, escalar);
+        multiplique_escalar(vect1, escalar); 
+        
+        for (int i = 0; i < sizeof(vect1) / sizeof(int); i++) {
+            cout << vect1[i] << ",";
+        } 
+
         break;
     case 3:
         cout << "Digite el numero al cual desea calcular el coseno: ";
