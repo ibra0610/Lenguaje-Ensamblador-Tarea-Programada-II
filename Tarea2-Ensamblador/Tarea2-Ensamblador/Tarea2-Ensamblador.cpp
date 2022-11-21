@@ -18,28 +18,28 @@ float* sumaVectorial(float* v1, float* v2) {
 
 void leerVector(float* vect, int numDeVec) {
     if (numDeVec == 1) {
-        cout << "Introduzca los 8 elementos del vector." << endl;
+        cout << "Introduzca los 4 elementos del vector." << endl;
     }
     else {
-        cout << "Introduzca los 8 elementos del segundo vector." << endl;
+        cout << "Introduzca los 4 elementos del segundo vector." << endl;
     }
 
-    for (int i = 0; i < 8; i++) {
+    for (int i = 0; i < 4; i++) {
         cin >> vect[i];
     }
 }
 
 void operar(const int opElegida) {
-    float vect1[8];
-    float* resultado =(float*) calloc(8, sizeof(float));
+    float vect1[4];
+    float* resultado =(float*) calloc(4, sizeof(float));
 
     switch (opElegida) {
     case 1:
         cout << "<Suma de dos vectores> :" << endl;
         leerVector(vect1, 1);
-        float vect2[8];
+        float vect2[4];
         leerVector(vect2, 2);
-        resultado = sumaVectorial(vect1, vect2, resultado);
+        sumaVectorial(vect1, vect2, resultado);
         break;
     case 2:
         cout << "<Multiplicar escalar por vector> :" << endl;
@@ -83,10 +83,10 @@ void operar(const int opElegida) {
     if (opElegida != 3) {
         cout << "Resultado: ";
         cout << "[";
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < 3; i++) {
             cout << resultado[i] << ", ";
         }
-        cout << resultado[7] << "]" << endl;
+        cout << resultado[3] << "]" << endl;
     }
     free(resultado);
     resultado = nullptr;
