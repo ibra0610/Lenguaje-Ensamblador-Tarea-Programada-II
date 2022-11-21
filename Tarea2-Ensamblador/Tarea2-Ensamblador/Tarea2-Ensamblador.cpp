@@ -39,7 +39,7 @@ void operar(const int opElegida) {
         leerVector(vect1, 1);
         float vect2[8];
         leerVector(vect2, 2);
-        resultado = sumaVectorial(vect1, vect2, resultado);
+        //no descomente esto, mi proc modifica resultado por dentro resultado = sumaVectorial(vect1, vect2, resultado);
         break;
     case 2:
         cout << "<Multiplicar escalar por vector> :" << endl;
